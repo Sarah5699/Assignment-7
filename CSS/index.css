@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F4E1;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: #6C5B7B;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.press-btn{
+    color: #C06C84;
+}
+.btn{
+    background-color: #468B97;
+    transition: all 0.4s;
+    --bs-btn-bg: #468B97;
+    color: #1a365e;
+}
+.btn:hover{
+    background-color: #EF6262;
+    color: #b71919;
+}
+#quoteId, #writterId{
+    color: #116A7B;
+}
+#quoteId{
+    max-width: 800px;
+}
